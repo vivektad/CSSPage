@@ -77,7 +77,35 @@ button {
     margin: 20px;
 }
 
+.features {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 80px;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 100%;
+}
 
+.indFeature {
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.indFeature img {
+    max-width: 80%;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.indFeature p {
+    text-align: center;
+}
 
 .footer {
     justify-content: center;
