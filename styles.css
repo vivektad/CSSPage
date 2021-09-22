@@ -27,19 +27,24 @@
     color: #F9FAF8;
     display: flex;
     gap: 20px;
-    align-items: center;
     justify-content: space-between;
 }
 
 .heroText {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    justify-content: space-between;
+}
+
+.heroText p {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1;
 }
 
 .heroTitle {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     flex: 1;
 }
 
@@ -47,7 +52,8 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    border-color: none;
+    border: none;
+    padding: 5px 10px;
 }
 
 .heroText button {
@@ -64,17 +70,18 @@ button {
     flex: 0 1 100%;
 }
 
-
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 20px;
+}
 
 
 
 .footer {
     justify-content: center;
     padding-bottom: 0%;
-}
-
-.hero p {
-    font-size: 18px;
 }
 
 .quoteSection {
