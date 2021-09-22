@@ -1,5 +1,11 @@
-div {
-    padding: 20px;
+.blocks {
+    padding: 40px 100px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: auto;
+    font-weight: bold;
 }
 
 .brand {
@@ -7,44 +13,75 @@ div {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    padding: 0px 100px 100px;
 }
 
 .header {
     align-items: center;
     display: flex;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
-.header p {
+.hero {
+    color: #F9FAF8;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer {
-    justify-content: center;
+.heroText {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.heroTitle {
+    font-size: 48px;
+    font-weight: extra-bold;
+    flex: 1;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    border-color:#F9FAF8;
+    border-color: none;
 }
 
-.hero {
-    color: #F9FAF8;
-    display: flex;
+.heroText button {
+    max-width: 100px;
+    justify-content: left;
 }
 
-.hero h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
-    flex: 1;
+.heroImg {
+    max-width: 50%;
+}
+
+.heroImg img{
+    max-width: 100%;
+    flex: 0 1 100%;
+}
+
+
+
+
+
+.footer {
+    justify-content: center;
 }
 
 .hero p {
     font-size: 18px;
 }
 
-.logo {
-    font-size: 24px;
-    margin-right: auto;
+.quoteSection {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
 }
