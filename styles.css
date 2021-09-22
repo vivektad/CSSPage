@@ -107,17 +107,54 @@ button {
     text-align: center;
 }
 
-.footer {
-    justify-content: center;
-    padding-bottom: 0%;
-}
-
 .quoteSection {
+    padding: 100px 100px;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: auto auto;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+}
+
+.author {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.ctaBlock {
+    padding: 100px;
+}
+
+.cta {
+    color: #E5E7EB;
+    font-weight: 100;
+    padding: 30px 80px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta button {
+    border: 1px solid #F9FAF8;
+    max-height: 30px;
+}
+
+.ctaHeader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.footer {
+    justify-content: center;
+    padding-bottom: 0%;
 }
